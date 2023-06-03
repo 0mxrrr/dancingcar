@@ -13,7 +13,7 @@ ol {
 
 .myFavCar {
   transition: all 2s;
-  box-shadow: 5px 5px green;
+  box-shadow: 5px 5px red;
 }
 
 .active {
