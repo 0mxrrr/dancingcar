@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MGC Mesopotamia</title>
+    <link rel="stylesheet" href="sytle.css" />
+  </head>
+
+  <body>
+    <h2>This is MGC</h2>
+
+    <img
+      src="nissan.jpg"
+      alt="Girl in a jacket"
+      width="500"
+      height="300"
+      class="myFavCar"
+    />
+    <p>MGC is is the best.</p>
+
+    <ol>
+      <li>Mr. Kit</li>
+      <li>Mr. KHAN</li>
+      <li>Mr. Kit</li>
+      <li>Mr. Kit</li>
+      <li>Mr. Kit</li>
+      <li>Mr. Omar</li>
+    </ol>
+
+    <button id="btn">click me</button>
+
+    <script>
+      const btn = document.getElementById("btn");
+
+      btn.addEventListener("click", () => {
+        let name = prompt("What is your name? ");
+
+        console.log(name);
+      });
+    </script>
+
+    <script src="mgc.js"></script>
+  </body>
+</html>

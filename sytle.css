@@ -1,0 +1,23 @@
+h2 {
+  color: blue;
+  font-size: 56px;
+}
+
+img {
+  border-radius: 20%;
+}
+
+ol {
+  color: blueviolet;
+}
+
+.myFavCar {
+  transition: all 2s;
+  box-shadow: 5px 5px green;
+}
+
+.active {
+  transform: translate(500px) rotate(360deg);
+  width: 1000px;
+  height: 600px;
+}
